@@ -1,0 +1,32 @@
+.content {
+  margin: 10px;
+  width: 95%;
+  border-collapse: collapse;
+}
+
+.content td, .content th {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+}
+
+.content th {
+  background: #f3f3f3;
+  font: bold 18px Arial;
+}
+
+.content .selector {
+  font: 13px/1.5 Arial;
+  color: #777;
+}
+
+.content .property {
+  font: 13px/1.5 Arial;
+}
+
+.content .property .selector {
+  color: #000080;
+}
+
+.content .property .css-rule {
+  color: #b61039;
+}
