@@ -5,6 +5,7 @@
 }
 
 .content td, .content th {
+  vertical-align: top;
   padding: 5px 10px;
   border: 1px solid #ccc;
 }
@@ -15,18 +16,28 @@
 }
 
 .content .selector {
-  font: 12px/1.5 Arial;
+  font: 13px/1.5 Arial;
   color: #777;
 }
 
 .content .property {
-  font: 13px/1.5 Arial;
+  font: 11px/1.5 Arial;
 }
 
-.content .property .selector {
+.content .property a {
+  color: #000;
+  font-size: 12px;
+  text-decoration: none;
+  border-bottom: 1px dotted #000;
+}
+.content .property .css-property {
   color: #000080;
 }
 
 .content .property .css-rule {
   color: #b61039;
+}
+
+.content .property .css .rules {
+  display: none;
 }
